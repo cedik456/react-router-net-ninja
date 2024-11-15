@@ -114,3 +114,53 @@ header nav a {
 header nav a.active {
   border-bottom: 3px solid var(--primary);
 }
+
+/* HELP */
+
+.help-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.help-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.help-links a.active {
+  border-bottom: 3px solid var(--secondary);
+}
+
+/* FAQ */
+
+.faq-item {
+  margin: 10px 0 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.faq-item h2 {
+  font-size: 1.25em;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 5px;
+}

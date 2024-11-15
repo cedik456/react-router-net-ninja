@@ -5,9 +5,10 @@ function Root() {
     <div className="root-layout">
       <header>
         <nav>
-          <h1>RouterRoutes</h1>
+          <h1 className="anchor-tag">RouterRoutes</h1>
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About us</NavLink>
+          <NavLink to="help">Help</NavLink>
         </nav>
       </header>
 
