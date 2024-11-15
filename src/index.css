@@ -42,6 +42,7 @@ body {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
   cursor: default;
+  margin: 30px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -74,6 +75,14 @@ picture {
 
 /* GENERAL */
 
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
 button {
   border: 0;
   padding: 8px;
@@ -81,4 +90,27 @@ button {
   color: white;
   background: var(--primary);
   cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 12000px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+header nav h1 {
+  margin-right: auto;
+  color: #bc4123;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav a.active {
+  border-bottom: 3px solid var(--primary);
 }
