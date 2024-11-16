@@ -164,3 +164,36 @@ header nav a.active {
   color: #666;
   margin-top: 5px;
 }
+
+/* CONTACT */
+
+.contact {
+  margin-top: 10px;
+}
+
+.contact form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px 14px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.contact form button {
+  width: 100px;
+}
