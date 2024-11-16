@@ -241,3 +241,11 @@ header nav a.active {
   font-size: 0.8rem;
   color: grey;
 }
+
+/* BreadCrumbs */
+
+.crumbs span .link {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 15px;
+}
