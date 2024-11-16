@@ -217,3 +217,27 @@ header nav a.active {
   border: none;
   border-radius: 6px;
 }
+
+.careers > a {
+  display: block;
+  color: black;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.careers > a:hover p {
+  color: var(--primary);
+}
+
+.careers p {
+  margin: 0;
+}
+
+.careers > a p:last-child {
+  font-size: 0.8rem;
+  color: grey;
+}
