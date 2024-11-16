@@ -14,6 +14,7 @@ import Contacts from "./pages/help/Contact";
 //layouts
 import Root from "./layouts/Root";
 import Help from "./layouts/Help";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="faq" element={<Faq />}></Route>
         <Route path="contact" element={<Contacts />}></Route>
       </Route>
+      <Route path="*" element={<NotFound />}></Route>
     </Route>
   )
 );

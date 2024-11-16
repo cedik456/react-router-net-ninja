@@ -181,7 +181,7 @@ header nav a.active {
 .contact form textarea {
   padding: 10px 14px;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 3px;
   font-size: 16px;
   outline: none;
 }
@@ -196,4 +196,24 @@ header nav a.active {
 
 .contact form button {
   width: 100px;
+}
+
+/* ERROR */
+
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.return-btn {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border: 1px solid black;
+  background: var(--primary);
+  border: none;
+  border-radius: 6px;
 }
