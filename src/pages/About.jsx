@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { Navigate } from "react-router-dom";
 
 function About() {
+  const [user, setUser] = useState("ced");
+
+  if (!user) {
+    return <Navigate to="/" replace={true} />;
+  }
+
   return (
     <div>
       <h3>About Us</h3>
@@ -30,6 +37,7 @@ function About() {
         nobis, neque libero maxime laudantium impedit itaque dolor! Magnam,
         voluptates!
       </p>
+      <button onClick={() => setUser(null)}>Logout</button>
     </div>
   );
 }
